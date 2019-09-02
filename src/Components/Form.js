@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 
 export class Form extends Component {
   render() {
+    // const { getWeather } = this.props;
+    // console.log(getWeather)
     return (
-      <div>
-        <h1>Form Component</h1>
-      </div>
+      <form onSubmit={this.props.getWeather} >
+        <input type='text' name='city' placeholder='City...' />
+        <input type='text' name='country' placeholder='Country...' />
+        <button>Submit</button>
+      </form>
+      
     )
   }
 }
