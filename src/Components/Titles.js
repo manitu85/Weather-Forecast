@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Titles extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Find out temperature, conditions and more...</h1>
-      </div>
-    )
-  }
-}
+const Titles = () => (
+  <h1>Find out temperature, conditions and more...</h1>
+)
 
 export default Titles
