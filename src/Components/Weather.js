@@ -24,12 +24,12 @@ const Weather = ({city, country, temperature, cord, humidity, pressure, wind, de
       }
       {
         pressure && <p className='weather__key'>Pressure: 
-         <span className='weather__value'> {pressure} bar</span>
+         <span className='weather__value'> {pressure}mbar</span>
          </p>
       }
       {
         wind && <p className='weather__key'>Wind: 
-         <span className='weather__value'> {wind} m/s</span>
+         <span className='weather__value'> {wind}m/s</span>
          </p>
       }
       {
